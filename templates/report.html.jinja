@@ -505,6 +505,46 @@
       </table>
     </section>
 
+    <section class="section">
+      <h2>Quarter-by-quarter players — {{ data.teams.away.tricode }}</h2>
+      <div class="section-sub">
+        Traditional stats for Thunder players by quarter (from sample data).
+      </div>
+      {% for q in data.quarters %}
+        {% if q.players is defined and q.players.away is defined %}
+          <h3>Q{{ q.number }}</h3>
+          <table>
+            <tr>
+              <th class="name">Player</th>
+              <th>MIN</th>
+              <th>FG</th><th>FG%</th>
+              <th>3P</th><th>3P%</th>
+              <th>FT</th><th>FT%</th>
+              <th>TRB</th><th>AST</th><th>STL</th><th>BLK</th><th>TOV</th><th>PTS</th>
+            </tr>
+            {% for p in q.players.away %}
+            <tr>
+              <td class="name">{{ p.name }}</td>
+              <td>{{ p.min }}</td>
+              <td>{{ p.fg }}/{{ p.fga }}</td>
+              <td>{% if p.fga %}{{ "%.1f"|format(100 * p.fg / p.fga) }}{% else %}-{% endif %}</td>
+              <td>{{ p.fg3 }}/{{ p.fg3a }}</td>
+              <td>{% if p.fg3a %}{{ "%.1f"|format(100 * p.fg3 / p.fg3a) }}{% else %}-{% endif %}</td>
+              <td>{{ p.ft }}/{{ p.fta }}</td>
+              <td>{% if p.fta %}{{ "%.1f"|format(100 * p.ft / p.fta) }}{% else %}-{% endif %}</td>
+              <td>{{ p.trb }}</td>
+              <td>{{ p.ast }}</td>
+              <td>{{ p.stl }}</td>
+              <td>{{ p.blk }}</td>
+              <td>{{ p.tov }}</td>
+              <td>{{ p.pts }}</td>
+            </tr>
+            {% endfor %}
+          </table>
+        {% endif %}
+      {% endfor %}
+    </section>
+
     <section class="section downloads">
       <h2>Downloads</h2>
       <p>Play-by-play CSV (placeholder): {{ data.files.play_by_play_csv }}</p>
