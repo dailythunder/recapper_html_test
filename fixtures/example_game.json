@@ -73,8 +73,22 @@
         "def_rating": 112.3,
         "net_rating": 13.2,
         "efg_pct": 0.602,
-        "ts_pct": 0.62,
+        "ts_pct": 0.620,
         "pace": 100.5
+      }
+    },
+    "misc": {
+      "home": {
+        "pitp": 46,
+        "second_chance": 12,
+        "fast_break": 15,
+        "points_off_to": 18
+      },
+      "away": {
+        "pitp": 52,
+        "second_chance": 14,
+        "fast_break": 18,
+        "points_off_to": 22
       }
     }
   },
@@ -84,40 +98,66 @@
       "home_score": 27,
       "away_score": 29,
       "traditional": {
-        "home": {
-          "fg": 10,
-          "fga": 24,
-          "fg3": 3,
-          "fg3a": 9,
-          "ft": 4,
-          "fta": 4,
-          "tov": 4,
-          "pts": 27
-        },
-        "away": {
-          "fg": 11,
-          "fga": 23,
-          "fg3": 4,
-          "fg3a": 9,
-          "ft": 3,
-          "fta": 3,
-          "tov": 3,
-          "pts": 29
-        }
+        "home": { "fg": 10, "fga": 24, "fg3": 3, "fg3a": 9, "ft": 4, "fta": 4, "tov": 4, "pts": 27 },
+        "away": { "fg": 11, "fga": 23, "fg3": 4, "fg3a": 9, "ft": 3, "fta": 3, "tov": 3, "pts": 29 }
       },
       "advanced": {
-        "home": {
-          "off_rating": 113.0,
-          "def_rating": 118.0,
-          "efg_pct": 0.541,
-          "ts_pct": 0.56
-        },
-        "away": {
-          "off_rating": 118.0,
-          "def_rating": 113.0,
-          "efg_pct": 0.565,
-          "ts_pct": 0.59
-        }
+        "home": { "off_rating": 113.0, "def_rating": 118.0, "efg_pct": 0.541, "ts_pct": 0.560 },
+        "away": { "off_rating": 118.0, "def_rating": 113.0, "efg_pct": 0.565, "ts_pct": 0.590 }
+      },
+      "players": {
+        "home": [
+          {
+            "name": "LeBron James",
+            "min": "8:30",
+            "fg": 4,
+            "fga": 7,
+            "fg3": 1,
+            "fg3a": 3,
+            "ft": 1,
+            "fta": 1,
+            "trb": 3,
+            "ast": 2,
+            "stl": 0,
+            "blk": 0,
+            "tov": 1,
+            "pts": 10
+          }
+        ],
+        "away": [
+          {
+            "name": "Shai Gilgeous-Alexander",
+            "min": "9:00",
+            "fg": 4,
+            "fga": 6,
+            "fg3": 1,
+            "fg3a": 2,
+            "ft": 3,
+            "fta": 3,
+            "trb": 2,
+            "ast": 2,
+            "stl": 1,
+            "blk": 0,
+            "tov": 0,
+            "pts": 12
+          },
+          {
+            "name": "Chet Holmgren",
+            "min": "8:00",
+            "fg": 3,
+            "fga": 5,
+            "fg3": 1,
+            "fg3a": 2,
+            "ft": 0,
+            "fta": 0,
+            "trb": 4,
+            "ast": 1,
+            "stl": 0,
+            "blk": 2,
+            "tov": 0,
+            "pts": 7
+          }
+        ]
       }
     },
     {
@@ -125,40 +165,66 @@
       "home_score": 30,
       "away_score": 30,
       "traditional": {
-        "home": {
-          "fg": 11,
-          "fga": 23,
-          "fg3": 3,
-          "fg3a": 9,
-          "ft": 5,
-          "fta": 6,
-          "tov": 3,
-          "pts": 30
-        },
-        "away": {
-          "fg": 11,
-          "fga": 22,
-          "fg3": 4,
-          "fg3a": 9,
-          "ft": 4,
-          "fta": 5,
-          "tov": 3,
-          "pts": 30
-        }
+        "home": { "fg": 11, "fga": 23, "fg3": 3, "fg3a": 9, "ft": 5, "fta": 6, "tov": 3, "pts": 30 },
+        "away": { "fg": 11, "fga": 22, "fg3": 4, "fg3a": 9, "ft": 4, "fta": 5, "tov": 3, "pts": 30 }
       },
       "advanced": {
-        "home": {
-          "off_rating": 115.0,
-          "def_rating": 115.0,
-          "efg_pct": 0.556,
-          "ts_pct": 0.575
-        },
-        "away": {
-          "off_rating": 115.0,
-          "def_rating": 115.0,
-          "efg_pct": 0.591,
-          "ts_pct": 0.61
-        }
+        "home": { "off_rating": 115.0, "def_rating": 115.0, "efg_pct": 0.556, "ts_pct": 0.575 },
+        "away": { "off_rating": 115.0, "def_rating": 115.0, "efg_pct": 0.591, "ts_pct": 0.610 }
+      },
+      "players": {
+        "home": [
+          {
+            "name": "LeBron James",
+            "min": "8:30",
+            "fg": 3,
+            "fga": 6,
+            "fg3": 1,
+            "fg3a": 3,
+            "ft": 2,
+            "fta": 2,
+            "trb": 2,
+            "ast": 2,
+            "stl": 0,
+            "blk": 0,
+            "tov": 1,
+            "pts": 9
+          }
+        ],
+        "away": [
+          {
+            "name": "Shai Gilgeous-Alexander",
+            "min": "8:45",
+            "fg": 4,
+            "fga": 7,
+            "fg3": 1,
+            "fg3a": 2,
+            "ft": 2,
+            "fta": 2,
+            "trb": 1,
+            "ast": 3,
+            "stl": 1,
+            "blk": 0,
+            "tov": 1,
+            "pts": 11
+          },
+          {
+            "name": "Chet Holmgren",
+            "min": "7:30",
+            "fg": 2,
+            "fga": 4,
+            "fg3": 0,
+            "fg3a": 1,
+            "ft": 2,
+            "fta": 2,
+            "trb": 3,
+            "ast": 1,
+            "stl": 0,
+            "blk": 1,
+            "tov": 0,
+            "pts": 6
+          }
+        ]
       }
     },
     {
@@ -166,40 +232,66 @@
       "home_score": 22,
       "away_score": 32,
       "traditional": {
-        "home": {
-          "fg": 8,
-          "fga": 21,
-          "fg3": 2,
-          "fg3a": 8,
-          "ft": 4,
-          "fta": 5,
-          "tov": 4,
-          "pts": 22
-        },
-        "away": {
-          "fg": 12,
-          "fga": 21,
-          "fg3": 4,
-          "fg3a": 9,
-          "ft": 4,
-          "fta": 4,
-          "tov": 2,
-          "pts": 32
-        }
+        "home": { "fg": 8, "fga": 21, "fg3": 2, "fg3a": 8, "ft": 4, "fta": 5, "tov": 4, "pts": 22 },
+        "away": { "fg": 12, "fga": 21, "fg3": 4, "fg3a": 9, "ft": 4, "fta": 4, "tov": 2, "pts": 32 }
       },
       "advanced": {
-        "home": {
-          "off_rating": 104.0,
-          "def_rating": 127.0,
-          "efg_pct": 0.524,
-          "ts_pct": 0.54
-        },
-        "away": {
-          "off_rating": 127.0,
-          "def_rating": 104.0,
-          "efg_pct": 0.619,
-          "ts_pct": 0.64
-        }
+        "home": { "off_rating": 104.0, "def_rating": 127.0, "efg_pct": 0.524, "ts_pct": 0.540 },
+        "away": { "off_rating": 127.0, "def_rating": 104.0, "efg_pct": 0.619, "ts_pct": 0.640 }
+      },
+      "players": {
+        "home": [
+          {
+            "name": "LeBron James",
+            "min": "9:00",
+            "fg": 2,
+            "fga": 6,
+            "fg3": 1,
+            "fg3a": 3,
+            "ft": 2,
+            "fta": 2,
+            "trb": 2,
+            "ast": 2,
+            "stl": 1,
+            "blk": 1,
+            "tov": 1,
+            "pts": 7
+          }
+        ],
+        "away": [
+          {
+            "name": "Shai Gilgeous-Alexander",
+            "min": "9:15",
+            "fg": 3,
+            "fga": 5,
+            "fg3": 1,
+            "fg3a": 1,
+            "ft": 2,
+            "fta": 2,
+            "trb": 1,
+            "ast": 1,
+            "stl": 1,
+            "blk": 0,
+            "tov": 0,
+            "pts": 9
+          },
+          {
+            "name": "Chet Holmgren",
+            "min": "8:45",
+            "fg": 3,
+            "fga": 4,
+            "fg3": 1,
+            "fg3a": 2,
+            "ft": 2,
+            "fta": 2,
+            "trb": 4,
+            "ast": 1,
+            "stl": 0,
+            "blk": 1,
+            "tov": 0,
+            "pts": 9
+          }
+        ]
       }
     },
     {
@@ -207,40 +299,66 @@
       "home_score": 29,
       "away_score": 30,
       "traditional": {
-        "home": {
-          "fg": 9,
-          "fga": 18,
-          "fg3": 3,
-          "fg3a": 7,
-          "ft": 8,
-          "fta": 10,
-          "tov": 4,
-          "pts": 29
-        },
-        "away": {
-          "fg": 10,
-          "fga": 22,
-          "fg3": 3,
-          "fg3a": 11,
-          "ft": 7,
-          "fta": 8,
-          "tov": 3,
-          "pts": 30
-        }
+        "home": { "fg": 9, "fga": 18, "fg3": 3, "fg3a": 7, "ft": 8, "fta": 10, "tov": 4, "pts": 29 },
+        "away": { "fg": 10, "fga": 22, "fg3": 3, "fg3a": 11, "ft": 7, "fta": 8, "tov": 3, "pts": 30 }
       },
       "advanced": {
-        "home": {
-          "off_rating": 115.5,
-          "def_rating": 116.9,
-          "efg_pct": 0.583,
-          "ts_pct": 0.6
-        },
-        "away": {
-          "off_rating": 116.9,
-          "def_rating": 115.5,
-          "efg_pct": 0.568,
-          "ts_pct": 0.59
-        }
+        "home": { "off_rating": 115.5, "def_rating": 116.9, "efg_pct": 0.583, "ts_pct": 0.600 },
+        "away": { "off_rating": 116.9, "def_rating": 115.5, "efg_pct": 0.568, "ts_pct": 0.590 }
+      },
+      "players": {
+        "home": [
+          {
+            "name": "LeBron James",
+            "min": "9:10",
+            "fg": 2,
+            "fga": 3,
+            "fg3": 0,
+            "fg3a": 1,
+            "ft": 2,
+            "fta": 2,
+            "trb": 1,
+            "ast": 1,
+            "stl": 1,
+            "blk": 0,
+            "tov": 1,
+            "pts": 6
+          }
+        ],
+        "away": [
+          {
+            "name": "Shai Gilgeous-Alexander",
+            "min": "7:45",
+            "fg": 2,
+            "fga": 3,
+            "fg3": 0,
+            "fg3a": 0,
+            "ft": 2,
+            "fta": 2,
+            "trb": 1,
+            "ast": 1,
+            "stl": 0,
+            "blk": 1,
+            "tov": 1,
+            "pts": 6
+          },
+          {
+            "name": "Chet Holmgren",
+            "min": "8:00",
+            "fg": 2,
+            "fga": 3,
+            "fg3": 0,
+            "fg3a": 0,
+            "ft": 0,
+            "fta": 0,
+            "trb": 2,
+            "ast": 0,
+            "stl": 1,
+            "blk": 0,
+            "tov": 1,
+            "pts": 4
+          }
+        ]
       }
     }
   ],
@@ -267,8 +385,8 @@
           "pts": 30
         },
         "advanced": {
-          "ts_pct": 0.64,
-          "efg_pct": 0.59,
+          "ts_pct": 0.640,
+          "efg_pct": 0.590,
           "usg_pct": 30.0,
           "off_rating": 118.0,
           "def_rating": 114.0
@@ -297,7 +415,7 @@
           "pts": 38
         },
         "advanced": {
-          "ts_pct": 0.72,
+          "ts_pct": 0.720,
           "efg_pct": 0.667,
           "usg_pct": 31.0,
           "off_rating": 130.0,
@@ -325,7 +443,7 @@
           "pts": 22
         },
         "advanced": {
-          "ts_pct": 0.69,
+          "ts_pct": 0.690,
           "efg_pct": 0.643,
           "usg_pct": 24.0,
           "off_rating": 125.0,
@@ -336,69 +454,18 @@
   },
   "leaders": {
     "home": {
-      "points": {
-        "value": 30,
-        "players": [
-          "LeBron James"
-        ]
-      },
-      "rebounds": {
-        "value": 10,
-        "players": [
-          "Anthony Davis"
-        ]
-      },
-      "assists": {
-        "value": 8,
-        "players": [
-          "D'Angelo Russell"
-        ]
-      },
-      "blocks": {
-        "value": 2,
-        "players": [
-          "Anthony Davis"
-        ]
-      },
-      "steals": {
-        "value": 2,
-        "players": [
-          "LeBron James",
-          "Austin Reaves"
-        ]
-      }
+      "points": { "value": 30, "players": ["LeBron James"] },
+      "rebounds": { "value": 10, "players": ["Anthony Davis"] },
+      "assists": { "value": 8, "players": ["D'Angelo Russell"] },
+      "blocks": { "value": 2, "players": ["Anthony Davis"] },
+      "steals": { "value": 2, "players": ["LeBron James", "Austin Reaves"] }
     },
     "away": {
-      "points": {
-        "value": 38,
-        "players": [
-          "Shai Gilgeous-Alexander"
-        ]
-      },
-      "rebounds": {
-        "value": 13,
-        "players": [
-          "Chet Holmgren"
-        ]
-      },
-      "assists": {
-        "value": 7,
-        "players": [
-          "Shai Gilgeous-Alexander"
-        ]
-      },
-      "blocks": {
-        "value": 4,
-        "players": [
-          "Chet Holmgren"
-        ]
-      },
-      "steals": {
-        "value": 3,
-        "players": [
-          "Shai Gilgeous-Alexander"
-        ]
-      }
+      "points": { "value": 38, "players": ["Shai Gilgeous-Alexander"] },
+      "rebounds": { "value": 13, "players": ["Chet Holmgren"] },
+      "assists": { "value": 7, "players": ["Shai Gilgeous-Alexander"] },
+      "blocks": { "value": 4, "players": ["Chet Holmgren"] },
+      "steals": { "value": 3, "players": ["Shai Gilgeous-Alexander"] }
     }
   },
   "files": {
